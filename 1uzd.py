@@ -2,8 +2,8 @@ import json
 
 def galvena_funkcija():
     try:
-        with open("1uzd.json", "r", encoding="utf-8") as ff:
-            data=json.load(ff)
+        with open("1uzd.txt", "r", encoding="utf-8") as ff:
+            data=ff.read()
             print(data)
             
     except FileNotFoundError:
