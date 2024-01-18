@@ -6,4 +6,4 @@ def lasit_izdrukat(csv_fails):
         for rinda in csvlasitajs:
             if len(rinda) > 1:
                 print(rinda[1])
-lasit_izdrukat('2uzd.txt')
+lasit_izdrukat('2uzd.csv')
